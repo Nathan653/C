@@ -1,0 +1,18 @@
+1) Your weight in platinum costs $4239075.00
+
+2) Result: Same as float ($4239075.00), but more precise for complex calculations
+
+3) Your weight in platinum costs $4239075.0000
+
+4) Using %f causes undefined behavior.
+   Using %d: Your weight in platinum costs $4239075
+
+5) Prints unpredictable symbols or blanks for non-printable ASCII values.
+
+6) Add printf("In decimal: %d, in octal: %o, in hexadecimal: %x\n", value, value, value);
+   Output for 4239075: In decimal: 4239075, in octal: 20243743, in hexadecimal: 40b1a3
+
+
+
+
+
